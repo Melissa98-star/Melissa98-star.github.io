@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	
+	form{
+		
+		width: 50%;
+		height: auto;
+		padding: 30px;
+		background-color: fuchsia;
+		color: pink;
+		margin: 0 auto;
+		
+	}
+	
+	label{
+		
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	
+	label, input{
+		display: block;
+		margin-left: 10px;
+	}
+	input[type="text"], [type="password"]{
+		
+		width: 100%;
+		color: aqua; 
+		padding: 5px;
+		border-radius: 5px;
+	}
+	
+	input[type="submit"]{
+		
+		width: 30%;
+		background-color: indianred;
+		padding: 10px;
+		margin: 20px auto;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	
+	input[type="text"]:focus, [type="password"]:focus{
+		
+		background-color: hotpink;
+		border: 3px solid gray;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+	
+<header><h1>Este es el contenido de la etiqueta H1 de diseño</h1></header>
+<nav>
+	
+	<ul>
+            <li><a href="miprimeraweb.html" target="_blank">Inicio</a></li>
+            <li><a href="Listas.html" target="_blank">Listas</a></li>
+            <li><a href="Enlaces.html" target="_blank">Enlaces</a></li>
+            <li><a href="tablas.html" target="_blank">Tablas</a></li>
+            <li><a href="imagenes.html" target="_blank">Imágenes</a></li>
+            <li><a href="audios.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+  </ul></nav>
+<main>
+  <section>
+    <h2>Formulario &nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aperiam unde natus dolore odio, molestiae ipsa pariatur beatae. A at modi, nobis eos aut suscipit vel facilis inventore maiores libero accusamus ex magni dicta perferendis error culpa hic consectetur odit incidunt temporibus voluptate. Odio expedita accusantium nemo perspiciatis, nisi, deserunt veritatis perferendis sequi fugiat atque vero vel illum. Architecto dolorem eius praesentium molestias, vitae itaque deserunt, sunt voluptate sint cupiditate, veritatis facere repellat similique sed ducimus odio numquam! Quo quidem recusandae, voluptas id, ullam hic possimus saepe culpa sed quibusdam, perferendis magnam error dicta consequuntur, cumque commodi reiciendis ab voluptatum.</p>
+  	<form action="" method="get">
+		<label id="" main="">Nombre</label>  
+	  <input type="text" id="nombre" name="nombre">
+	  <label id="password" main="">Contraseña</label>  
+		<input type="password" id="contraseña" name="contraseña">
+		<input type="submit" id="enviar" name="enviar"> 
+	</form>
+	</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae voluptatem magni vero in velit reprehenderit, iure temporibus sit aperiam ratione quaerat sint minima, voluptatibus ea. Maiores soluta ipsum ea dolorem id veritatis fugiat, cum atque porro. Deserunt at quisquam ipsa, molestiae aspernatur tempore! Quisquam consequuntur, nesciunt earum. Cumque fugiat iste sit et harum tenetur, facere veritatis qui vero explicabo reiciendis nihil at vitae accusamus! Eligendi eius cumque, praesentium consectetur ducimus rerum incidunt a quas maiores vero sunt fugiat, veniam commodi, provident quod ipsam velit odio iusto voluptate blanditiis. Quis, eaque excepturi ipsum veniam similique modi numquam aliquid accusamus suscipit!</p>
+    <form id="form1" name="form1" method="post">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" name="textfield" id="textfield">
+      <label for="Edad">Edad:</label>
+      <input type="Edad" name="number" id="number" min="18" max="90">
+      <label for="Estado">Estado</label>
+      <select name="Estado" id="select">
+		  <option value="Coahuila">Coahuila</option>
+		   <option value="Colima">Colima</option>
+		   <option value="Monterre">Monterrey</option>
+		   <option value="Puebla">Puebla</option>
+      </select>
+	
+		
+      <input type="submit" name="submit" id="submit" value="Enviar">
+		
+     
+    </form>
+	  
+	 
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi hic, consectetur vero ratione modi quisquam tempora adipisci, ex deleniti sequi quaerat esse? Magnam ratione est suscipit minus beatae quas impedit quos voluptatum repellendus necessitatibus? Nihil placeat ullam, dolor vitae. Vitae minima temporibus illo quasi natus quo veniam quibusdam magni asperiores quas assumenda, ipsam nostrum, ratione, reprehenderit eligendi ad laborum aliquid commodi odio. Explicabo voluptates quisquam molestiae vero libero esse culpa ab quasi sunt hic tempore enim neque sit repellat, totam ducimus eaque natus ad. Atque modi obcaecati quasi quisquam, fuga. Reprehenderit ad delectus temporibus sit ipsum? Amet ut minus ratione!</p>
+    <form id="form2" name="form2" method="post">
+      <label for="textfield2">Nombre:</label>
+      <input type="text" name="textfield2" id="textfield2">
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="fem" id="Genero_0">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="mas" id="Genero_1">
+            Masculino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="otro" id="Genero_2">
+            Otro</label></td>
+        </tr>
+      </table>
+      Colocar aquí el contenido para form
+    </form>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum accusamus aliquid dicta accusantium laudantium dolore repudiandae cumque et, ullam aspernatur, impedit delectus, ut optio ad eligendi sapiente ratione voluptates exercitationem vero, officia totam minus similique! Ab neque labore facilis officia, laudantium consequuntur ipsum tenetur quae consequatur aspernatur repellendus ad, beatae dolore, quo error architecto impedit esse alias ratione sint? Repudiandae odio mollitia fuga odit sint voluptatem placeat, nemo aliquam ab ex, deserunt quae blanditiis expedita rerum similique ullam soluta, neque quidem praesentium quibusdam magni suscipit reprehenderit provident. Nesciunt qui autem, quidem, culpa, ut quibusdam ad doloremque deleniti iusto quos delectus.</p>
+  </section>
+</main>
+<footer>Colocar aquí el contenido de la nueva etiqueta footer</footer>
+</body>
+</html>

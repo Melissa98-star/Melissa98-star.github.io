@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header,
+nav,
+main,
+footer {
+
+    width: 960px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    color: #f7f1e1;
+    height: 100px;
+    background-color: #ce7095;
+    text-align: center;
+}
+
+nav {
+
+    height: 50px;
+    background-color: #ffb2c1;
+
+}
+
+main {
+
+    height: auto;
+    background-color: #ce7095;
+}
+
+section {
+
+    width: 800px;
+    height: auto;
+    background-color: #ffdbd7;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+img {
+
+    width: 250px;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+
+#gato {
+
+    width: 200px;
+    float: right;
+
+
+}
+
+#cat {
+    width: 300px;
+    float: left;
+}
+
+#icono {
+
+    width: 32px;
+
+
+}
+
+#fondo_section {
+
+    background-image: url(../../Medios/img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+#fondo_section p {
+
+    color: beige;
+}
+
+
+#fondo_section h2 {
+
+    color: beige;
+    
+}
+
+footer {
+
+    height: 50px;
+    background-color: #855e6e;
+    color: beige;
+    text-align: center;
+}
+
+nav ul {
+
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    width: 80px;
+    background-color: #855e6e;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-width: 3px;
+    border-color: #FFF1DB;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+
+}
+
+section a {
+
+    color: #418E8E;
+    font-weight: bold;
+
+}
+
+section a:visited {
+
+    color: #5a4e3c;
+}
+
+nav ul li a {
+
+    color: #E9EBBF;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #D4BDAC;
+    width: 90px;
+}
+
+nav ul li a:hover {
+    color: #5a4e3c;
+    font-weight: bold;
+}
+
+p {
+    margin: 20px;
+}
+
+
+#menu_interno {
+
+    width: 760px;
+    
+}
+section h2{
+    
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+
+#gato_filtro{
+    
+    text-align: center;
+}
+
+#gato_filtro img{
+    
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+#img1{
+    
+    filter: brightness(150%);
+}
+
+#img2{
+    
+    filter: contrast(50);
+}
+
+#img3{
+    
+    filter: grayscale(100%);
+}
+
+#img4{
+    
+    filter: invert(100%);
+}
+
+#img5{
+    
+    filter: opacity(50%);
+}
+
+#img6{
+    
+    filter: sepia(100%);
+}
+
+#img7{
+    
+    filter: saturate(150%);
+}
+
+#img8{
+    
+    filter: blur(150%);
+}
+
+#img9{
+    
+    filter: drop-shadow(10px 10px 20px red);
+}
+
+#img10{
+    
+    filter: sepia(100%);
+    filter: saturate(350%);
+}
+
+#img1{
+    
+    filter: hue-rotate(100%);
+    
+}
+
+
+iframe{
+    
+    width: 100%;
+    height: 315px;
+    text-align: center;
+    margin: auto;
+}
+
+#pinterest{
+
+    height:400px;
+    width:180px;
+
+}
+
+#menuvideo nav {
+    width: 100px;
+}
+
+#tabla3{
+
+    list-style: none;
+}
+
+

@@ -1,0 +1,360 @@
+<html lang="es">
+
+<head>
+	<title>Listas</title>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		header,
+		nav,
+		main,
+		footer {
+
+			width: 960px;
+			padding: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			color: azure;
+
+		}
+
+		header {
+			/*width: 1280px;*/
+			height: 158px;
+			background-color: #536493;
+			color: aliceblue;
+
+
+		}
+
+		nav {
+
+			background-color: #EF5A6F;
+
+		}
+
+		main {
+
+			background-color: #FFF1DB;
+			color: darkblue;
+
+		}
+
+		footer {
+
+			background-color: #536493;
+			text-align: center;
+		}
+
+		section {
+
+			width: 650px;
+			background-color: #D4BDAC;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 30px;
+
+		}
+
+		section ul li {
+
+			margin-left: 30px;
+		}
+
+		section ol li {
+
+			margin-left: 30px;
+		}
+
+
+		h2,
+		h3,
+		p {
+
+			margin-bottom: 15px;
+		}
+
+		h1,
+		h5 {
+
+			text-align: center;
+		}
+
+		nav ul {
+
+			list-style-type: none;
+			text-align: center;
+		}
+
+		nav ul li {
+			width: 80px;
+			background-color: #536493;
+			color: black;
+			margin-bottom: 10px;
+			padding: 10px;
+			border-width: 3px;
+			border-color: #FFF1DB;
+			border-style: solid;
+			display: inline-block;
+			text-align: center;
+
+		}
+
+		section a {
+
+			color: #418E8E;
+			font-weight: bold;
+		}
+
+		section a:visited {
+
+			color: #5a4e3c;
+		}
+
+		section a:hover {
+
+			color: red;
+		}
+
+		nav ul li a {
+
+			color: #E9EBBF;
+			text-decoration: none;
+		}
+
+		nav ul li:hover {
+			background-color: #D4BDAC;
+			width: 90px;
+		}
+
+		nav ul li a:hover {
+			color: #5a4e3c;
+			font-weight: bold;
+		}
+
+		p {
+
+			margin: 20px;
+		}
+
+		main nav {
+
+			width: 600px;
+			background-color: transparent;
+
+		}
+
+		main nav ul li {
+
+			border-width: 3px;
+			border-color: #EF5A6F;
+			border-style: solid;
+		}
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<h1> Listas en html</h1>
+	</header>
+
+	<nav>
+
+		<ul>
+			<li><a href="miprimeraweb.html" target="_blank">Inicio</a></li>
+			<li><a href="Listas.html" target="_blank">Listas</a></li>
+			<li><a href="Enlaces.html" target="_blank">Enlaces</a></li>
+			<li><a href="#">Tablas</a></li>
+			<li><a href="imagenes.html" target="_blank">Imágenes</a></li>
+			<li><a href="audios.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="#">Formulario</a></li>
+		</ul>
+
+	</nav>
+	<main>
+		<section>
+			<h2 id="lista_oredenada">Lista ordenada</h2>
+			<ol>
+				<li>Adobe Photoshop</li>
+				<li>Adobe Illustrator</li>
+				<li>After Efects</li>
+				<li>Premiere</li>
+				<li>Adobe Indesign</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2 id="lista_desordenada">Listas desordenadas</h2>
+			<ul>
+				<li>Python</li>
+				<li>JavaScript</li>
+				<li>Java</li>
+				<li>C++</li>
+				<li>Ruby</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Lista mixta</h2>
+			<ol>
+				<li>Mexico
+					<ul>
+						<li>Quintana Roo
+							<ul>
+								<li>Cancún</li>
+								<li>Playa del Carmen</li>
+								<li>Tulum</li>
+								<li>Chetumal</li>
+								<li>Cozumel</li>
+							</ul>
+						</li>
+
+						<li>Sonora
+							<ul>
+								<li>Hermosillo</li>
+								<li>Ciudad Obregón</li>
+								<li>Nogales</li>
+								<li>Guaymas</li>
+								<li>Navojoa</li>
+							</ul>
+						</li>
+
+						<li>Michoacán
+							<ul>
+								<li>Morelia</li>
+								<li>Pátzcuaro</li>
+								<li>Uruapan</li>
+								<li>Zamora</li>
+								<li>Apatzingán</li>
+							</ul>
+						</li>
+
+						<li>Guanajuato
+							<ul>
+								<li>León</li>
+								<li>San Miguel de Allende</li>
+								<li>Celaya</li>
+								<li>Irapuato</li>
+								<li>Guanajuato</li>
+							</ul>
+						</li>
+
+						<li>Querétaro
+							<ul>
+								<li>Santiago de Querétaro</li>
+								<li>San Juan del Río</li>
+								<li>Tequisquiapan</li>
+								<li>El Marqués</li>
+								<li>Jalpan de Serra</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+
+				<li>Brasil
+					<ul>
+						<li>São Paulo</li>
+						<li>Río de Janeiro</li>
+						<li>Brasilia</li>
+						<li>Salvador</li>
+						<li>Curitiba</li>
+					</ul>
+				</li>
+
+				<li>Italia
+					<ul>
+						<li>Roma</li>
+						<li>Milán</li>
+						<li>Florencia</li>
+						<li>Nápoles</li>
+						<li>Venecia</li>
+					</ul>
+				</li>
+
+				<li>Canadá
+					<ul>
+						<li>Toronto</li>
+						<li>Vancouver</li>
+						<li>Montreal</li>
+						<li>Ottawa</li>
+						<li>Calgary</li>
+					</ul>
+				</li>
+
+				<li>Reino Unido
+					<ul>
+						<li>Londres</li>
+						<li>Manchester</li>
+						<li>Edimburgo</li>
+						<li>Birmingham</li>
+						<li>Glasgow</li>
+					</ul>
+				</li>
+			</ol>
+
+		</section>
+
+		<section>
+			<h2 id="conceptos">Lista de conceptos</h2>
+			<dl>
+				<dt>Programación</dt>
+				<dd>Lorem ipsum dolor sit amet consectetur adipiscing elit vitae
+					dictumst mattis, cursus cras nisi enim aliquet sagittis conubia consequat
+					duis. Metus etiam praesent dapibus porta purus blandit a dui eros, vivamus
+					gravida quam tristique elementum non commodo maecenas quisque velit, Lorem
+					ipsum dolor sit amet consectetur adipiscing elit vitae dictumst mattis,
+					cursus cras nisi enim aliquet sagittis conubia consequat duis. Metus etiam
+					praesent dapibus porta purus blandit a dui eros, vivamus gravida quam
+					tristique elementum non commodo maecenas quisque velit, </dd>
+
+				<dt>Automatización</dt>
+				<dd>Lorem ipsum dolor sit amet consectetur adipiscing elit vitae
+					dictumst mattis, cursus cras nisi enim aliquet sagittis conubia consequat
+					duis. Metus etiam praesent dapibus porta purus blandit a dui eros, vivamus
+					gravida quam tristique elementum non commodo maecenas quisque velit, Lorem
+					ipsum dolor sit amet consectetur adipiscing elit vitae dictumst mattis,
+					cursus cras nisi enim aliquet sagittis conubia consequat duis. Metus etiam
+					praesent dapibus porta purus blandit a dui eros, vivamus gravida quam
+					tristique elementum non commodo maecenas quisque velit, </dd>
+
+				<dt>DevSecOps</dt>
+				<dd>Lorem ipsum dolor sit amet consectetur adipiscing elit vitae
+					dictumst mattis, cursus cras nisi enim aliquet sagittis conubia consequat
+					duis. Metus etiam praesent dapibus porta purus blandit a dui eros, vivamus
+					gravida quam tristique elementum non commodo maecenas quisque velit, Lorem
+					ipsum dolor sit amet consectetur adipiscing elit vitae dictumst mattis,
+					cursus cras nisi enim aliquet sagittis conubia consequat duis. Metus etiam
+					praesent dapibus porta purus blandit a dui eros, vivamus gravida quam
+					tristique elementum non commodo maecenas quisque velit, </dd>
+			</dl>
+		</section>
+
+		<nav>
+
+			<ul>
+
+				<li><a href="#lista_oredenada">Lista ordenada</a></li>
+				<li><a href="#lista_desordenada">Lista desordenada</a></li>
+				<li><a href="#conceptos">Lista de conceptos</a></li>
+
+			</ul>
+
+		</nav>
+	</main>
+
+	<footer>
+		<h6>Elaborado por: Diana Melissa Paredes Pérez</h6>
+
+	</footer>
+
+</body>
+
+</html>
